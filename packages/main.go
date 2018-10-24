@@ -35,5 +35,8 @@ func RepeatStr1(repetitions int, value string) string {
 }
 
 func RepeatStr2(repetitions int, value string) string {
-	return strings.Repeat(value, repetitions)
+	if repetitions == 1 {
+		return value
+	}
+	return RepeatStr(repetitions-1, value) + value
 }
