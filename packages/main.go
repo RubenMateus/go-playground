@@ -18,6 +18,9 @@ func main() {
 
 	// lol
 	panic("aaaaaaaaaaaaaaa")
+
+	a, b := stringutils.Swap("hello", "world")
+	fmt.Println(a, b)
 }
 
 // simple repeat could be achieved several ways

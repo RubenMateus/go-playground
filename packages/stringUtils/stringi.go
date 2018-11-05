@@ -8,3 +8,7 @@ func Reverse(someString string) string {
 	}
 	return reverseString
 }
+
+func Swap(x, y string) (string, string) {
+	return y, x
+}
