@@ -15,12 +15,15 @@ func main() {
 	fmt.Println(stringutils.Reverse("olleh"))
 	fmt.Println(RepeatStr(5, "ola"))
 	fmt.Println(RepeatStr1(5, "ola"))
-
+	fmt.Println(RepeatStr2(5, "ola"))
 	// lol
-	panic("aaaaaaaaaaaaaaa")
+	//panic("aaaaaaaaaaaaaaa")
 
 	a, b := stringutils.Swap("hello", "world")
 	fmt.Println(a, b)
+
+	fmt.Printf("Fields are: %q", strings.Fields("  foo bar  baz   "))
+
 }
 
 // simple repeat could be achieved several ways
