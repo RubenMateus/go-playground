@@ -1,0 +1,2 @@
+# go-playground
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b9627076101f409fbd4c46bc986f9c21)](https://app.codacy.com/app/RubenMateus/go-playground?utm_source=github.com&utm_medium=referral&utm_content=RubenMateus/go-playground&utm_campaign=Badge_Grade_Dashboard)
